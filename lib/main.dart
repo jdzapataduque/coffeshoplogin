@@ -7,9 +7,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Center(
-          child: LoginScreen(),
-        ));
+      debugShowCheckedModeBanner: false,
+      title: 'Juan diego Tienda de café',
+      home: LoginScreen(),
+    );
   }
 }
